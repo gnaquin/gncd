@@ -1,23 +1,23 @@
 .bigCircle{
-  z-index: 0;
+  z-index: -1;
   height: 700px;
   width: 700px;
   position: absolute;
   inset: -5em 2em 3em 8em;
-  background-color: transparent;
+  background-color: #121212;
   border: solid skyblue;
   border-radius: 50%;
 }
 
 .smallCircle{
+  z-index: -2;
   height: 300px;
   width: 300px;
   position: absolute;
   inset: 20em 2em 2em 43em;
-  background-color: transparent;
+  background-color: #121212;
   border: solid skyblue;
   border-radius: 50%;
-  
 }
 
 .tOne{
@@ -54,4 +54,51 @@
 .tThree > h3{
   max-width: 30ch;
   font-style: italic;
+}
+
+.innerContainer{
+  width: 100vw
+}
+
+.innerContainer > h2{
+  text-align: center;
+}
+
+.sectionOne{
+  display: flex;
+  margin-top: 10em;
+  margin-left: 5em;
+  width: 100vw;
+  align-items: center;
+}
+
+.sOText{
+  width: 30ch;
+}
+
+.rectangle{
+  border: solid skyblue;
+  width: 600px;
+  height: 300px;
+  margin-left: 2em
+}
+
+.smallCircleTwo{
+  z-index: -2;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  inset: 55.5em 2em 2em 42em;
+  background-color: #121212;
+  border: solid skyblue;
+  border-radius: 50%;
+}
+
+.sectionTwo{
+  display: flex;
+  width: 100vw;
+}
+
+.sectionTwo > ion-card{
+  width: 50%
 }
